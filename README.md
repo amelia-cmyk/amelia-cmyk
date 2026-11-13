@@ -35,6 +35,7 @@ An end-to-end **UI & API test automation framework** built with Playwright + Typ
 
 - 🧱 Page Object Model, custom fixtures, and one-time login reused across tests
 - 🌐 Cross-browser (Chromium, Firefox, WebKit) and mobile (Pixel 7, iPhone 14)
+- ♿ Accessibility testing with axe-core (WCAG 2.1 AA) using a known-issues baseline
 - 🔌 Typed REST API tests: CRUD lifecycle and negative cases
 - ✅ Quality gates: type check, ESLint, Prettier
 - ⚙️ GitHub Actions CI on push, PR and nightly, with the HTML report published to GitHub Pages
