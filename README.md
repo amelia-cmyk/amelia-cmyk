@@ -3,7 +3,7 @@
 
 <p align="center">
   I build reliable, maintainable test automation for web applications and APIs,
-  and I enjoy turning manual regression work into fast, trustworthy CI pipelines.
+  test at every level of the pyramid, and enjoy turning manual regression work into fast, trustworthy CI pipelines.
 </p>
 
 ---
@@ -13,6 +13,9 @@
 **Testing & QA**<br>
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![API Testing](https://img.shields.io/badge/API%20Testing-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+![Pact](https://img.shields.io/badge/Pact-Contract%20Testing-1F6FEB?style=for-the-badge)
+![k6](https://img.shields.io/badge/k6-Performance-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
 
 **Languages**<br>
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -24,10 +27,11 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ---
 
-### 🚀 Featured project
+### 🚀 Featured projects
 
 #### [playwright-e2e-ts](https://github.com/amelia-cmyk/playwright-e2e-ts)
 
@@ -42,6 +46,18 @@ An end-to-end **UI & API test automation framework** built with Playwright + Typ
 
 [![Playwright Tests](https://github.com/amelia-cmyk/playwright-e2e-ts/actions/workflows/playwright.yml/badge.svg)](https://github.com/amelia-cmyk/playwright-e2e-ts/actions)
 📊 [Live test report](https://amelia-cmyk.github.io/playwright-e2e-ts/)
+
+#### [api-test-pyramid](https://github.com/amelia-cmyk/api-test-pyramid)
+
+A small **Library REST API** tested at **every level of the test pyramid**, so each risk is caught by the cheapest test that can catch it.
+
+- 🧮 **Unit** (Vitest): business rules with boundary value analysis and decision tables
+- 🔌 **Integration** (Supertest): real HTTP against a real PostgreSQL, including concurrent requests for the last copy
+- 🤝 **Contract** (Pact): consumer-driven contracts that catch breaking API changes before deployment
+- ⚡ **Performance** (k6): 20 virtual users with per-endpoint p95 budgets calibrated from a measured baseline
+- 🧪 Test quality checked by injecting bugs on purpose; 100% line coverage enforced in CI
+
+[![CI](https://github.com/amelia-cmyk/api-test-pyramid/actions/workflows/ci.yml/badge.svg)](https://github.com/amelia-cmyk/api-test-pyramid/actions)
 
 ---
 
