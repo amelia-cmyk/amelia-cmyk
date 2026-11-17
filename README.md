@@ -47,4 +47,8 @@ An end-to-end **UI & API test automation framework** built with Playwright + Typ
 
 ### 📫 Let's connect
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-0F766E?style=for-the-badge&logo=githubpages&logoColor=white)](https://amelia-cmyk.github.io)
+[![CV](https://img.shields.io/badge/Download%20CV-111827?style=for-the-badge&logo=readdotcv&logoColor=white)](https://amelia-cmyk.github.io/cv.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amelia-yusnita-sitanggang/)
+
 📧 amelia.sitanggang321@gmail.com
